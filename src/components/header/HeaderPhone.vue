@@ -26,8 +26,6 @@
         color: #331A2F;
 
         width: 203px;
-
-        border: 1px solid black;
     }
 }
 
@@ -43,8 +41,6 @@
             font-size: 18px;
 
             width: 152px;
-
-            border: 1px solid black;
         }
     }
 }

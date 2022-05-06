@@ -16,7 +16,8 @@
     align-items: center;
 }
 .menu {
-    gap: 50px;
+    width: 305.54px;
+
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
@@ -24,20 +25,18 @@
     color: #331A2F;
 }
 .menu_item{
-    gap: 11.45px;
 
     &:hover{
         cursor: pointer;
     }
 }
-
+.item_arrow{
+    margin-left: 12px;
+}
 @media (max-width: 1280px) {
     .menu {
-        gap: 40.45px;
+        width: 238.54px;
         font-size: 18px;
-    }
-    .menu_item{
-        gap: 12px;
     }
 }
 @media (max-width: 768px) {

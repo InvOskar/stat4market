@@ -4,6 +4,7 @@
         <header-menu/>
         <header-phone/>
         <header-button/>
+        <burger-menu/>
     </div>
 </template>
 
@@ -12,8 +13,9 @@ import HeaderButton from './HeaderButton.vue'
 import HeaderMenu from './HeaderMenu.vue'
 import HeaderLogo from './HeaderLogo.vue'
 import HeaderPhone from './HeaderPhone.vue'
+import BurgerMenu from './BurgerMenu.vue'
 export default {
-  components: { HeaderButton, HeaderMenu, HeaderLogo, HeaderPhone },
+  components: { HeaderButton, HeaderMenu, HeaderLogo, HeaderPhone, BurgerMenu },
 
 }
 </script>
@@ -23,13 +25,15 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 35px 195px;
-    margin: auto;
 }
+.header{
+    margin: auto;
+    padding: 35px 10%;
+}
+
 @media (max-width: 1280px) {
     .header {
-        padding: 35px 40px;
+        padding: 35px 5%;
     }
 }
 @media (max-width: 768px) {
