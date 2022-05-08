@@ -1,7 +1,7 @@
 <template>
     <div class="main">
         <div class="header_text">
-            Обучение по продажам на маркетплейсах от <p>stat<span class="color">4</span>market<div class="underline"></div></p>
+            Обучение по продажам на маркетплейсах от <p>stat<span class="color">4</span>market<span class="underline"></span></p>   
         </div>
         <p class="secondary_text">
             «Увеличение реальной прибыли, конкретика и ключевые инструменты, которые дают результат» — на этом тезисе созданы наши курсы
@@ -22,10 +22,9 @@
 
     width: 679px;
     margin: auto;
-
-    &>span{
-        color: #CF51CE;
-    }
+}
+.color{
+    color: #CF51CE;
 }
 .underline{
     width: 261px;
@@ -69,7 +68,20 @@
 }
 @media (max-width: 768px) {
     .header_text{
-        max-width: 626px;
+        width: auto;
+    }
+}
+@media (max-width: 360px) {
+    .header_text{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .secondary_text{
+        font-size: 18px;
+    }
+    .underline{
+        width: 131px;
+        height: 4px;
     }
 }
 </style>

@@ -16,8 +16,6 @@
     align-items: center;
 }
 .menu {
-    width: 305.54px;
-
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
@@ -28,6 +26,9 @@
 
     &:hover{
         cursor: pointer;
+    }
+    &:last-child{
+        padding-left: 20px;
     }
 }
 .item_arrow{
